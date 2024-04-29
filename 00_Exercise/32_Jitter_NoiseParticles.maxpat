@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 999.0, 259.0, 1779.0, 1118.0 ],
+		"rect" : [ 710.0, 351.0, 1779.0, 1118.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -715,8 +715,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 485.294137895107269, 395.882369458675385, 220.0, 22.0 ],
-					"text" : "jit.gl.camera @look 0. 0. 0. @locklook 1"
+					"patching_rect" : [ 485.294137895107269, 395.882369458675385, 230.0, 22.0 ],
+					"text" : "jit.gl.camera @lookat 0. 0. 0. @locklook 1"
 				}
 
 			}
