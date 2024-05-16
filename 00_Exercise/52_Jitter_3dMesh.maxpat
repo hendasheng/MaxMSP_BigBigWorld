@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 956.0, 110.0, 640.0, 676.0 ],
+		"rect" : [ 1614.0, 523.0, 640.0, 676.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,30 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-22",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 401.0, 171.0, 150.0, 34.0 ],
+					"text" : "C:/Users/lnlao/Desktop/Jitter_Model/geo_0.gltf"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 392.0, 207.0, 150.0, 34.0 ],
+					"text" : "/Users/hendasheng/Downloads/geo_0.fbx"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-31",
 					"maxclass" : "number",
@@ -154,8 +178,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 62.0, 214.0, 231.0, 22.0 ],
-					"text" : "/Users/hendasheng/Downloads/geo_0.fbx"
+					"patching_rect" : [ 62.0, 214.0, 256.0, 22.0 ],
+					"text" : "C:/Users/lnlao/Desktop/Jitter_Model/geo_0.gltf"
 				}
 
 			}
@@ -166,8 +190,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 62.0, 303.0, 171.0, 22.0 ],
-					"text" : "jit.gl.model @material_mode 3"
+					"patching_rect" : [ 62.0, 303.0, 277.0, 22.0 ],
+					"text" : "jit.gl.model @material_mode 3 @lighting_enable 1"
 				}
 
 			}
@@ -312,6 +336,19 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"attr" : "drawgroup",
+					"id" : "obj-24",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 145.0, 273.0, 150.0, 22.0 ]
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -387,6 +424,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-24", 0 ]
 				}
 
 			}
