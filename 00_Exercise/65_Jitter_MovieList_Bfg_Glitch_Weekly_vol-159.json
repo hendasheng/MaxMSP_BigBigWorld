@@ -1,0 +1,66 @@
+{
+	"pattrstorage" : 	{
+		"name" : "gradui",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"radiogroup" : [ 0 ],
+					"jit.gradient.ui::gradui" : [ 						{
+							"pointers_colors" : "[[0.18734431266784668,0,1,1],[0.7683358788490295,0.8616571426391602,0.9617459774017334,1],[0.9667578339576721,0.6079186797142029,0,1]]",
+							"pointers_positions" : "[0,270,196]"
+						}
+ ],
+					"zoomr::mode" : [ 2.0 ],
+					"zoomr::zoom-valL" : [ 1.5 ],
+					"zoomr::zoom-mult" : [ 0 ],
+					"zoomr::zoom-valH" : [ 16.0 ],
+					"pixl8r::horiz" : [ 0.644251968503937 ],
+					"pixl8r::vert" : [ 0.33 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"radiogroup" : [ 0 ],
+					"jit.gradient.ui::gradui" : [ 						{
+							"pointers_colors" : "[[0.9747619032859802,0.46554985642433167,0.3923611640930176,1],[0.6421893835067749,0.9852422475814819,0.21991881728172302,1],[0.1544523984193802,0.33037492632865906,0.9767102003097534,1]]",
+							"pointers_positions" : "[7,286,204]"
+						}
+ ],
+					"zoomr::mode" : [ 2.0 ],
+					"zoomr::zoom-valL" : [ 1.5 ],
+					"zoomr::zoom-mult" : [ 0 ],
+					"zoomr::zoom-valH" : [ 16.0 ],
+					"pixl8r::horiz" : [ 0.644251968503937 ],
+					"pixl8r::vert" : [ 0.33 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"radiogroup" : [ 0 ],
+					"jit.gradient.ui::gradui" : [ 						{
+							"pointers_colors" : "[[0.9450417757034302,0.7658035159111023,0,1],[0,1,0,1],[0.3547991216182709,0,1,1]]",
+							"pointers_positions" : "[0,258,159]"
+						}
+ ],
+					"zoomr::mode" : [ 2.0 ],
+					"zoomr::zoom-valL" : [ 1.5 ],
+					"zoomr::zoom-mult" : [ 0 ],
+					"zoomr::zoom-valH" : [ 16.0 ],
+					"pixl8r::horiz" : [ 0.644251968503937 ],
+					"pixl8r::vert" : [ 0.33 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
