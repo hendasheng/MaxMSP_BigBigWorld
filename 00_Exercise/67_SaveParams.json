@@ -1,0 +1,93 @@
+{
+	"pattrstorage" : 	{
+		"name" : "params",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"float" : [ 2.21 ],
+					"slider" : [ 91 ],
+					"jit.gradient.ui::gradui" : [ 						{
+							"pointers_colors" : "[[1,0,0,1],[0,1,0,1]]",
+							"pointers_positions" : "[205,470]"
+						}
+ ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"float" : [ 2.21 ],
+					"slider" : [ 91 ],
+					"jit.gradient.ui::gradui" : [ 						{
+							"pointers_colors" : "[[0,0,0.9860701560974121,1],[0,1,0,1]]",
+							"pointers_positions" : "[208,470]"
+						}
+ ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"float" : [ 2.21 ],
+					"slider" : [ 91 ],
+					"jit.gradient.ui::gradui" : [ 						{
+							"pointers_colors" : "[[0,0,0.9860701560974121,1],[0,1,0,1]]",
+							"pointers_positions" : "[208,166]"
+						}
+ ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"float" : [ 2.21 ],
+					"slider" : [ 91 ],
+					"jit.gradient.ui::gradui" : [ 						{
+							"pointers_colors" : "[[0,0,0.9616804718971252,1],[0,1,0,1],[0,0.9776892066001892,0,1],[0.6394952535629272,0.08682836592197418,0.9518941640853882,1]]",
+							"pointers_positions" : "[5,470,152,360]"
+						}
+ ]
+				}
+
+			}
+,
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"float" : [ 2.21 ],
+					"slider" : [ 91 ],
+					"jit.gradient.ui::gradui" : [ 						{
+							"pointers_colors" : "[[0.9592710733413696,0.7185684442520142,0,1],[0,1,0,1],[0.9934746623039246,0.28661108016967773,0,1],[0.6981492042541504,0.9291989803314209,0.7022655010223389,1]]",
+							"pointers_positions" : "[14,470,157,360]"
+						}
+ ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"data" : 				{
+					"float" : [ 2.21 ],
+					"slider" : [ 91 ],
+					"jit.gradient.ui::gradui" : [ 						{
+							"pointers_colors" : "[[1,0,0,1],[0,1,0,1]]",
+							"pointers_positions" : "[0,470]"
+						}
+ ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
