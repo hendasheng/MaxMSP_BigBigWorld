@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 46.0, 119.0, 1648.0, 964.0 ],
+		"rect" : [ 911.0, 119.0, 783.0, 964.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -416,7 +416,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-52",
-					"items" : [ "FaceTime HD Camera", ",", "“niu-iPhone (2)”的相机" ],
+					"items" : [ "FaceTime高清摄像头", ",", "OBS Virtual Camera", ",", "“niu-iPhone (2)”的相机" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
