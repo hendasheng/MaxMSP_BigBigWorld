@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 678.0, 311.0, 927.0, 920.0 ],
+		"rect" : [ 1378.0, 389.0, 927.0, 920.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -105,8 +105,8 @@
 					"numinlets" : 9,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 200.0, 716.0, 296.0, 22.0 ],
-					"text" : "jit.gl.mesh geo @draw_mode triangles @point_size 5."
+					"patching_rect" : [ 200.0, 768.0, 402.0, 22.0 ],
+					"text" : "jit.gl.mesh geo @draw_mode triangles @point_size 5. @lighting_enable 1"
 				}
 
 			}
@@ -179,30 +179,6 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 84.0, 256.0, 71.0, 22.0 ],
 					"text" : "jit.gl.skybox"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-11",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 432.0, 93.0, 306.0, 22.0 ],
-					"text" : "read E:/niu_work/3d/HDR/hilly_terrain_01_4k.exr"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-29",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 432.0, 136.0, 290.0, 22.0 ],
-					"text" : "jit.gl.environment @file photo_studio_loft_hall_2k.exr"
 				}
 
 			}
@@ -304,18 +280,31 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"attr" : "point_size",
+					"id" : "obj-1",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 200.0, 738.0, 150.0, 22.0 ]
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"source" : [ "obj-10", 0 ]
+					"destination" : [ "obj-24", 0 ],
+					"source" : [ "obj-1", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-29", 0 ],
-					"source" : [ "obj-11", 0 ]
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-10", 0 ]
 				}
 
 			}
