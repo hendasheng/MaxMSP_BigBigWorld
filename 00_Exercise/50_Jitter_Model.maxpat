@@ -40,6 +40,37 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"data" : 					{
+						"clips" : [ 							{
+								"absolutepath" : "chickens.mp4",
+								"filename" : "chickens.mp4",
+								"filekind" : "moviefile",
+								"id" : "u075001285",
+								"selection" : [ 0.0, 1.0 ],
+								"loop" : 1,
+								"content_state" : 								{
+									"loop" : 1
+								}
+
+							}
+ ]
+					}
+,
+					"drawto" : "",
+					"id" : "obj-5",
+					"loop" : 1,
+					"maxclass" : "jit.playlist",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "jit_matrix", "", "dictionary" ],
+					"output_texture" : 0,
+					"parameter_enable" : 0,
+					"patching_rect" : [ 822.0, 710.0, 150.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-74",
 					"maxclass" : "jit.pwindow",
 					"numinlets" : 1,
@@ -76,30 +107,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-70",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1033.050872087478638, 768.644086122512817, 35.0, 22.0 ],
-					"text" : "clear"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-60",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 952.54239559173584, 767.796628475189209, 32.0, 22.0 ],
-					"text" : "start"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-58",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -107,30 +114,6 @@
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 887.499983072280884, 1019.117627620697021, 91.0, 22.0 ],
 					"text" : "jit.gl.videoplane"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-57",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 887.288156747817993, 740.67798376083374, 33.0, 22.0 ],
-					"text" : "read"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-55",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 887.288156747817993, 817.796629667282104, 53.0, 22.0 ],
-					"text" : "jit.movie"
 				}
 
 			}
@@ -773,7 +756,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 887.499983072280884, 881.627139091491699, 279.661023616790771, 22.0 ]
+					"patching_rect" : [ 935.0, 910.0, 279.661023616790771, 22.0 ]
 				}
 
 			}
@@ -786,7 +769,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 887.499983072280884, 857.627139091491699, 150.0, 22.0 ]
+					"patching_rect" : [ 935.0, 886.0, 150.0, 22.0 ]
 				}
 
 			}
@@ -799,7 +782,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 887.499983072280884, 905.627139091491699, 279.661023616790771, 22.0 ]
+					"patching_rect" : [ 935.0, 934.0, 279.661023616790771, 22.0 ]
 				}
 
 			}
@@ -981,6 +964,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-73", 0 ],
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
 					"source" : [ "obj-50", 0 ]
 				}
@@ -1016,38 +1006,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-58", 0 ],
-					"order" : 0,
-					"source" : [ "obj-55", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-73", 0 ],
-					"order" : 1,
-					"source" : [ "obj-55", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-55", 0 ],
-					"source" : [ "obj-57", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-6", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-55", 0 ],
-					"source" : [ "obj-60", 0 ]
 				}
 
 			}
@@ -1076,13 +1036,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
 					"source" : [ "obj-7", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-55", 0 ],
-					"source" : [ "obj-70", 0 ]
 				}
 
 			}
@@ -1134,6 +1087,12 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "chickens.mp4",
+				"bootpath" : "C74:/media/jitter",
+				"type" : "mpg4",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "colorizer.genjit",
 				"bootpath" : "C74:/packages/vizzie/patchers/gen",
 				"type" : "gJIT",
