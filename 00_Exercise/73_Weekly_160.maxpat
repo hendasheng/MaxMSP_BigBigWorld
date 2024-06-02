@@ -498,7 +498,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-47",
-					"items" : [ "IMG_5743.mov", ",", "IMG_5744.mov", ",", "IMG_5748.mov", ",", "IMG_5749.mov", ",", "IMG_5751.mov" ],
+					"items" : [ "IMG_5290.mov", ",", "IMG_5751.mov", ",", "IMG_5781.jpg", ",", "output-1.mp4", ",", "output.mp4", ",", "录屏2024-06-03 00.10.27.mov", ",", "录屏2024-06-03 00.19.50.mov", ",", "录屏2024-06-03 00.21.04.mov" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -970,7 +970,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 520.0, 775.0, 123.0, 22.0 ],
-					"text" : "0.669213"
+					"text" : "0.595611"
 				}
 
 			}
