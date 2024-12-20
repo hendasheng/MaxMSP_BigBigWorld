@@ -14,6 +14,18 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 476.296280682086945, 251.407399296760559, 68.0, 22.0 ],
+					"text" : "loadbang 5"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-26",
 					"maxclass" : "jit.pwindow",
 					"numinlets" : 1,
@@ -156,7 +168,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 352.432087004184723, 367.148136079311371, 24.0, 24.0 ]
+					"patching_rect" : [ 352.406406819820404, 345.454535365104675, 24.0, 24.0 ]
 				}
 
 			}
@@ -293,6 +305,13 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
 					"source" : [ "obj-10", 1 ]
 				}
@@ -427,7 +446,7 @@
 
 			}
  ],
-		"originid" : "pat-5",
+		"originid" : "pat-11",
 		"parameters" : 		{
 			"obj-5" : [ "live.gain~", "live.gain~", 0 ],
 			"parameterbanks" : 			{
