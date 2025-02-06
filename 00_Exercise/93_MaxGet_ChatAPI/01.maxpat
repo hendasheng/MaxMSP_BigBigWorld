@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1258.0, 207.0, 920.0, 1018.0 ],
+		"rect" : [ 849.0, 162.0, 616.0, 840.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -19,7 +19,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 206.249998033046722, 130.470086336135864, 416.071424603462219, 36.0 ],
+					"patching_rect" : [ 45.0, 135.0, 416.071424603462219, 36.0 ],
 					"text" : "通过 node.js 将 DeepSeek 引入到 MaxMsp\n还没想好可以干嘛。"
 				}
 
@@ -27,12 +27,12 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
-					"fontsize" : 42.0,
+					"fontsize" : 60.0,
 					"id" : "obj-96",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 206.249998033046722, 64.285713672637939, 416.071424603462219, 55.0 ],
+					"patching_rect" : [ 45.0, 58.0, 502.0, 75.0 ],
 					"text" : "DeepSeek2Max"
 				}
 
@@ -45,7 +45,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 416.964281737804413, 196.0, 24.0, 24.0 ]
+					"patching_rect" : [ 256.0, 201.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -59,7 +59,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 448.0, 196.0, 260.0, 94.0 ],
+					"patching_rect" : [ 287.0, 201.0, 260.0, 94.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : "themecolor.theme_bgcolor"
@@ -71,7 +71,7 @@
 
 					}
 ,
-					"text" : "你好啊，你好啊，介绍一下你自己吧",
+					"text" : "你好啊，介绍一下你自己吧",
 					"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ]
 				}
 
@@ -83,7 +83,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 206.0, 404.0, 96.0, 22.0 ],
+					"patching_rect" : [ 45.0, 409.0, 96.0, 22.0 ],
 					"text" : "prepend set"
 				}
 
@@ -97,7 +97,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 206.0, 552.678566157817841, 186.0, 22.0 ]
+					"patching_rect" : [ 45.0, 558.0, 186.0, 22.0 ]
 				}
 
 			}
@@ -110,7 +110,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 206.0, 528.571423530578613, 186.0, 22.0 ]
+					"patching_rect" : [ 45.0, 534.0, 186.0, 22.0 ]
 				}
 
 			}
@@ -123,7 +123,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 206.0, 444.0, 186.0, 22.0 ]
+					"patching_rect" : [ 45.0, 449.0, 186.0, 22.0 ]
 				}
 
 			}
@@ -136,7 +136,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 206.0, 468.0, 186.0, 22.0 ]
+					"patching_rect" : [ 45.0, 473.0, 186.0, 22.0 ]
 				}
 
 			}
@@ -149,7 +149,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 206.0, 492.0, 186.0, 22.0 ]
+					"patching_rect" : [ 45.0, 497.0, 186.0, 22.0 ]
 				}
 
 			}
@@ -160,7 +160,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 289.0, 294.0, 75.0, 22.0 ],
+					"patching_rect" : [ 128.0, 299.0, 75.0, 22.0 ],
 					"text" : "prepend text"
 				}
 
@@ -172,7 +172,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 289.0, 253.846156418323517, 142.0, 25.0 ],
+					"patching_rect" : [ 128.0, 259.0, 142.0, 25.0 ],
 					"text" : "开始聊天，辛苦你开个头"
 				}
 
@@ -185,7 +185,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 242.0, 293.0, 24.0, 24.0 ]
+					"patching_rect" : [ 81.0, 298.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -205,7 +205,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 449.0, 352.0, 259.0, 182.0 ],
+					"patching_rect" : [ 287.0, 357.0, 260.035707533359528, 199.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -217,7 +217,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 206.0, 253.846156418323517, 63.0, 22.0 ],
+					"patching_rect" : [ 45.0, 259.0, 63.0, 22.0 ],
 					"text" : "script stop"
 				}
 
@@ -229,7 +229,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 206.0, 225.641027927398682, 64.0, 22.0 ],
+					"patching_rect" : [ 45.0, 231.0, 64.0, 22.0 ],
 					"text" : "script start"
 				}
 
@@ -241,12 +241,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 205.982908070087433, 352.0, 225.017091929912567, 22.0 ],
+					"patching_rect" : [ 45.0, 357.0, 225.017091929912567, 22.0 ],
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
-						"node_bin_path" : "",
-						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -263,17 +261,16 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.125, 0.125, 0.125, 1.0 ],
 					"fontface" : 1,
 					"fontsize" : 14.0,
 					"id" : "obj-29",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 206.0, 591.071422934532166, 502.035707533359528, 158.035712778568268 ],
+					"patching_rect" : [ 45.0, 596.0, 502.035707533359528, 158.035712778568268 ],
 					"readonly" : 1,
 					"rounded" : 9.0,
 					"saved_attribute_attributes" : 					{
@@ -287,9 +284,8 @@
 
 					}
 ,
-					"text" : "你好！我是由中国的深度求索（DeepSeek）公司开发的智能助手DeepSeek-V3。如您有任何任何问题，我会尽我所能为您提供帮助。",
+					"text" : "你好！我是一个人工智能助手，由中国的深度求索（DeepSeek）公司开发。我的功能是提供信息检索、数据分析和智能对话等服务。如果你有任何问题或需要帮助，随时可以告诉我，我会尽力提供支持。请问有什么可以帮你的吗？",
 					"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
-					"textjustification" : 0,
 					"varname" : "textedit"
 				}
 
@@ -298,7 +294,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 251.5, 339.0, 215.482908070087433, 339.0 ],
+					"midpoints" : [ 90.5, 343.529913663864136, 54.5, 343.529913663864136 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -313,7 +309,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 298.5, 339.0, 215.482908070087433, 339.0 ],
+					"midpoints" : [ 137.5, 343.529913663864136, 54.5, 343.529913663864136 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -391,7 +387,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 457.5, 339.0, 215.482908070087433, 339.0 ],
+					"midpoints" : [ 296.5, 343.529913663864136, 54.5, 343.529913663864136 ],
 					"source" : [ "obj-86", 0 ]
 				}
 
@@ -404,20 +400,7 @@
 
 			}
  ],
-		"originid" : "pat-390",
-		"parameters" : 		{
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
+		"originid" : "pat-196",
 		"dependency_cache" : [ 			{
 				"name" : "fit_jweb_to_bounds.js",
 				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
@@ -426,7 +409,7 @@
 			}
 , 			{
 				"name" : "maxGetOpenAI_API.js",
-				"bootpath" : "~/Desktop/MaxGet_ChatAPI",
+				"bootpath" : "~/Desktop/MaxMSP_BigBigWorld/00_Exercise/93_MaxGet_ChatAPI",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
