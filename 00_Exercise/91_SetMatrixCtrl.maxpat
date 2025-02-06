@@ -347,7 +347,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "list", "list" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 137.0, 222.0, 258.0, 482.0 ],
+					"patching_rect" : [ 137.0, 218.644057631492615, 258.0, 482.0 ],
 					"rows" : 30,
 					"scale" : 0,
 					"varname" : "matrixctrl"
