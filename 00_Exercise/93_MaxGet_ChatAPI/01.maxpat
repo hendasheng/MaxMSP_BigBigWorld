@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 849.0, 162.0, 616.0, 840.0 ],
+		"rect" : [ 1422.0, 296.0, 589.0, 840.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -205,7 +205,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 287.0, 357.0, 260.035707533359528, 199.0 ],
+					"patching_rect" : [ 287.0, 357.0, 260.0, 199.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -245,6 +245,8 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
+						"node_bin_path" : "",
+						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -264,7 +266,7 @@
 					"fontface" : 1,
 					"fontsize" : 14.0,
 					"id" : "obj-29",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -284,7 +286,7 @@
 
 					}
 ,
-					"text" : "你好！我是一个人工智能助手，由中国的深度求索（DeepSeek）公司开发。我的功能是提供信息检索、数据分析和智能对话等服务。如果你有任何问题或需要帮助，随时可以告诉我，我会尽力提供支持。请问有什么可以帮你的吗？",
+					"text" : "你好！我是由中国的深度求索（DeepSeek）公司开发的智能助手DeepSeek-V3。如您有任何任何问题，我会尽我所能为您提供帮助。",
 					"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
 					"varname" : "textedit"
 				}
@@ -400,7 +402,7 @@
 
 			}
  ],
-		"originid" : "pat-196",
+		"originid" : "pat-2065",
 		"dependency_cache" : [ 			{
 				"name" : "fit_jweb_to_bounds.js",
 				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
