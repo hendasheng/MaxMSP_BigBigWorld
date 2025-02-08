@@ -4,15 +4,27 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 957.0, 101.0, 1000.0, 1114.0 ],
+		"rect" : [ 878.0, 114.0, 1000.0, 956.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 132.0, 46.0, 150.0, 34.0 ],
+					"text" : "96_GetChatAPI\nMax2Python_ChatAPI.py"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-19",
 					"maxclass" : "newobj",
@@ -184,6 +196,8 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
+						"node_bin_path" : "",
+						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -226,7 +240,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 434.0, 100.0, 72.0, 22.0 ],
+					"patching_rect" : [ 454.0, 174.0, 72.0, 22.0 ],
 					"text" : "prepend set"
 				}
 
@@ -238,7 +252,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 434.0, 69.0, 65.0, 22.0 ],
+					"patching_rect" : [ 454.0, 143.0, 65.0, 22.0 ],
 					"text" : "route /chat"
 				}
 
@@ -250,7 +264,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 434.0, 32.0, 104.0, 22.0 ],
+					"patching_rect" : [ 454.0, 106.0, 104.0, 22.0 ],
 					"text" : "udpreceive 20000"
 				}
 
@@ -262,7 +276,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 139.0, 232.0, 59.0, 22.0 ],
+					"patching_rect" : [ 159.0, 306.0, 59.0, 22.0 ],
 					"text" : "route text"
 				}
 
@@ -275,7 +289,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 139.0, 57.0, 24.0, 24.0 ]
+					"patching_rect" : [ 159.0, 131.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -287,7 +301,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 139.0, 103.0, 216.0, 117.0 ],
+					"patching_rect" : [ 159.0, 177.0, 216.0, 117.0 ],
 					"text" : "你好啊，介绍一下自己吧"
 				}
 
@@ -299,7 +313,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 112.0, 22.0, 77.0, 22.0 ],
+					"patching_rect" : [ 132.0, 96.0, 77.0, 22.0 ],
 					"text" : "Hello Python"
 				}
 
@@ -310,7 +324,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 112.0, 279.0, 138.0, 22.0 ],
+					"patching_rect" : [ 132.0, 353.0, 138.0, 22.0 ],
 					"text" : "udpsend 127.0.0.1 5000"
 				}
 
@@ -325,8 +339,8 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 434.0, 137.0, 424.0, 279.0 ],
-					"text" : "你好！我是一个人工智能助手，由 OpenAI 开发，基于 GPT-4 架构。我可以帮助解答问题、提供信息、协助学习、创作文本、提供建议等。无论是学术问题、日常生活中的疑问，还是一些创意需求，我都可以尽力提供帮助和指导。你可以随时向我提问，我会尽力提供详细和准确的回答！😊\n\n你现在有什么需要帮助的吗？"
+					"patching_rect" : [ 454.0, 211.0, 424.0, 279.0 ],
+					"text" : "你好！我是一个人工智能助手，由 OpenAI 开发，基于 GPT-4 架构。我的主要功能是帮助你解答问题、提供信息、协助完成各种任务，比如写作、翻译、学习辅导、编程帮助等。我能够处理自然语言，理解你的需求，并尽力提供准确和有帮助的回答。\n\n如果你有任何问题，随时可以问我！ 😊"
 				}
 
 			}
@@ -547,7 +561,7 @@
 
 			}
  ],
-		"originid" : "pat-3231",
+		"originid" : "pat-241",
 		"dependency_cache" : [ 			{
 				"name" : "fit_jweb_to_bounds.js",
 				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
