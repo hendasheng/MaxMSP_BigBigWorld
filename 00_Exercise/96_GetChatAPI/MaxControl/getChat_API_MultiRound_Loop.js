@@ -1,9 +1,15 @@
 const OpenAI = require("openai");
 const Max = require("max-api");
+require('dotenv').config();
 
 // OpenAI 配置
+// const client = new OpenAI({
+//   apiKey: "sk-yptfkeyyfqhukjvgntubyrzlqxkeltqzxlgdcfslcntaigkj",
+//   baseURL: "https://api.siliconflow.cn/",
+// });
+
 const client = new OpenAI({
-  apiKey: "sk-yptfkeyyfqhukjvgntubyrzlqxkeltqzxlgdcfslcntaigkj",
+  apiKey: process.env.API_KEY,
   baseURL: "https://api.siliconflow.cn/",
 });
 
