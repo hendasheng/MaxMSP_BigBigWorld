@@ -1,8 +1,12 @@
 from openai import OpenAI
 import time
 
+import os
+from dotenv import load_dotenv
+load_dotenv() 
+
 # OpenAI 配置
-client = OpenAI(api_key="sk-yptfkeyyfqhukjvgntubyrzlqxkeltqzxlgdcfslcntaigkj", base_url="https://api.siliconflow.cn/")
+client = OpenAI(api_key = os.getenv("API_KEY"), base_url="https://api.siliconflow.cn/")
 
 # 初始化消息历史记录
 messages = [{"role": "system", "content": "自然对话风格，一问一答，像聊天一样。"}]
