@@ -14,6 +14,18 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 539.0, 891.0, 56.0, 22.0 ],
+					"text" : "route 0 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -46,7 +58,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 214.0, 734.0, 174.0, 259.0 ]
+					"patching_rect" : [ 214.0, 734.0, 173.0, 145.0 ]
 				}
 
 			}
@@ -82,7 +94,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 539.0, 971.0, 59.0, 22.0 ],
-					"text" : "prepend ]"
+					"text" : "append ]"
 				}
 
 			}
@@ -242,16 +254,18 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 214.0, 554.0, 251.0, 22.0 ],
+					"patching_rect" : [ 214.0, 554.0, 157.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
+						"node_bin_path" : "",
+						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
-					"text" : "node.script getChat_API_MultiRound_Loop.js",
+					"text" : "node.script ChatAPI2Max.js",
 					"textfile" : 					{
-						"filename" : "getChat_API_MultiRound_Loop.js",
+						"filename" : "ChatAPI2Max.js",
 						"flags" : 0,
 						"embed" : 0,
 						"autowatch" : 1
@@ -414,12 +428,31 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2.0, 734.0, 174.0, 259.0 ]
+					"patching_rect" : [ 2.0, 734.0, 176.0, 145.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 703.0, 1019.0, 35.0, 22.0 ],
+					"text" : "clear"
 				}
 
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-12", 0 ]
@@ -463,6 +496,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"source" : [ "obj-14", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-167", 0 ],
 					"source" : [ "obj-146", 0 ]
 				}
@@ -498,16 +545,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-14", 0 ],
+					"order" : 1,
 					"source" : [ "obj-184", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"order" : 1,
+					"destination" : [ "obj-17", 0 ],
+					"order" : 0,
 					"source" : [ "obj-184", 0 ]
 				}
 
@@ -649,15 +696,15 @@
  ],
 		"originid" : "pat-3763",
 		"dependency_cache" : [ 			{
-				"name" : "fit_jweb_to_bounds.js",
-				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
+				"name" : "ChatAPI2Max.js",
+				"bootpath" : "~/Desktop/MaxMSP_BigBigWorld/00_Exercise/96_GetChatAPI/MaxControl",
+				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "getChat_API_MultiRound_Loop.js",
-				"bootpath" : "~/Desktop/MaxMSP_BigBigWorld/00_Exercise/96_GetChatAPI/MaxControl",
-				"patcherrelativepath" : ".",
+				"name" : "fit_jweb_to_bounds.js",
+				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
