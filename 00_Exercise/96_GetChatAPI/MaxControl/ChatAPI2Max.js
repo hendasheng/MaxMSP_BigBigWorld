@@ -38,7 +38,8 @@ async function main() {
     messages.push({ role: "user", content: userQuestion });
 
     // 发送用户提问到 Max/MSP
-    Max.outlet(`提问 ${turn}: ${userQuestion}`);
+    // Max.outlet(`提问 ${turn}: ${userQuestion}`);
+    Max.outlet(0, `${userQuestion}`);
 
     // 调用 OpenAI API 获取 AI 回复
     let assistantContent = "";
@@ -65,7 +66,8 @@ async function main() {
 
     // 输出 AI 回复
     console.log(`回答 ${turn + 1}: ${assistantContent}\n`);
-    Max.outlet(`回答 ${turn + 1}: ${assistantContent}`);
+    // Max.outlet(`回答 ${turn + 1}: ${assistantContent}`);
+    Max.outlet(1, `${assistantContent}`);
 
     // 更新用户提问：让 AI 生成下一个问题
     let nextQuestion = "";
