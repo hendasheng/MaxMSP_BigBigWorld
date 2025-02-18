@@ -14,7 +14,7 @@ const client = new OpenAI({
 });
 
 // 初始化消息历史记录
-let messages = [{ role: "system", content: "自然对话风格，一问一答，像聊天一样。" }];
+let messages = [{ role: "system", content: "自然对话风格，一问一答，像聊天一样，尽可能简短。" }];
 
 // 初始用户提问
 let userQuestion = "我们来聊聊吧！";
@@ -76,7 +76,7 @@ async function main() {
         model: "deepseek-ai/DeepSeek-V3",
         messages: [
           ...messages,
-          { role: "user", content: "回答并请提出一个相关的问题，简短一点，像日常聊天" },
+          { role: "user", content: "简单回答并请提出一个相关的问题，非常简短，像日常聊天" },
         ],
         stream: true,
       });

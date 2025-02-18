@@ -1,0 +1,77 @@
+{
+	"pattrstorage" : 	{
+		"name" : "fx",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"attrui" : [ "contrast", -0.370078740157481 ],
+					"live.dial" : [ 39.999999999999972 ],
+					"live.dial[1]" : [ 27.999999999999986 ],
+					"v8_AA" : [  ],
+					"v8_AB" : [  ],
+					"fx_brcosa" : [ "bypass", 0 ],
+					"fx_altern" : [ "bypass", 1 ],
+					"fx_slide" : [ "bypass", 1 ],
+					"live.dial[2]" : [ 19.999999999999993 ],
+					"fx_directional" : [  ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"attrui" : [ "contrast", -0.370078740157481 ],
+					"live.dial" : [ 39.999999999999972 ],
+					"live.dial[1]" : [ 27.999999999999986 ],
+					"v8_AA" : [  ],
+					"v8_AB" : [  ],
+					"fx_brcosa" : [ "bypass", 1 ],
+					"fx_altern" : [ "bypass", 0 ],
+					"fx_slide" : [ "bypass", 1 ],
+					"live.dial[2]" : [ 19.999999999999993 ],
+					"fx_directional" : [  ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"attrui" : [ "contrast", -0.370078740157481 ],
+					"live.dial" : [ 39.999999999999972 ],
+					"live.dial[1]" : [ 27.999999999999986 ],
+					"v8_AA" : [  ],
+					"v8_AB" : [  ],
+					"fx_brcosa" : [ "bypass", 1 ],
+					"fx_altern" : [ "bypass", 1 ],
+					"fx_slide" : [ "bypass", 0 ],
+					"live.dial[2]" : [ 19.999999999999993 ],
+					"fx_directional" : [ "bypass", 1 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"attrui" : [ "contrast", -0.370078740157481 ],
+					"live.dial" : [ 39.999999999999972 ],
+					"live.dial[1]" : [ 27.999999999999986 ],
+					"v8_AA" : [  ],
+					"v8_AB" : [  ],
+					"fx_brcosa" : [ "bypass", 1 ],
+					"fx_altern" : [ "bypass", 1 ],
+					"fx_slide" : [ "bypass", 1 ],
+					"live.dial[2]" : [ 19.999999999999993 ],
+					"fx_directional" : [ "bypass", 0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
