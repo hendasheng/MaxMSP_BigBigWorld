@@ -4,15 +4,26 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 653.0, 191.0, 1462.0, 1109.0 ],
+		"rect" : [ 154.0, 90.0, 1462.0, 1109.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 836.144609212875366, 1081.927750825881958, 138.0, 22.0 ],
+					"text" : "udpsend 127.0.0.1 1336"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-158",
 					"maxclass" : "comment",
@@ -210,7 +221,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1167.0, 185.0, 103.0, 22.0 ],
-					"text" : "scale 0. 1. 30 100"
+					"text" : "scale 0. 1. 60 100"
 				}
 
 			}
@@ -289,7 +300,7 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "function generateRandomString(length) {\r\n    const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-=[]{}|;:,.<>?/';\r\n    let result = '';\r\n    const charactersLength = characters.length;\r\n    for (let i = 0; i < length; i++) {\r\n        result += characters.charAt(Math.floor(Math.random() * charactersLength));\r\n    }\r\n    return result;\r\n}\r\n\r\nlet length = 10;\r\n\r\nfunction msg_int(newLength) {\r\n    length = newLength;\r\n    let randomString = generateRandomString(length);\r\n    outlet(0, randomString);\r\n}\r\n\r\n",
+					"code" : "function generateRandomString(length) {\r\n    const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-=[]{}|;:,.<>?/← → ↑ ↓ ↔ ↕ ⇐ ⇒ ⇑ ⇓ ⇔ ⇕ ↖ ↗ ↘ ↙';\r\n    let result = '';\r\n    const charactersLength = characters.length;\r\n    for (let i = 0; i < length; i++) {\r\n        result += characters.charAt(Math.floor(Math.random() * charactersLength));\r\n    }\r\n    return result;\r\n}\r\n\r\nlet length = 10;\r\n\r\nfunction msg_int(newLength) {\r\n    length = newLength;\r\n    let randomString = generateRandomString(length);\r\n    outlet(0, randomString);\r\n}\r\n\r\n",
 					"filename" : "none",
 					"fontface" : 0,
 					"fontname" : "<Monospaced>",
@@ -358,6 +369,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-92",
+					"linecount" : 2,
 					"maxclass" : "textedit",
 					"nosymquotes" : 1,
 					"numinlets" : 1,
@@ -365,8 +377,7 @@
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 561.0, 985.0, 413.0, 65.0 ],
-					"presentation_linecount" : 3,
-					"text" : "ayqH4cj?{. ]TI8ZI/4?E r7AZq.ZfAx T>K%<lLv&W LA>J3V32=I K|.|0"
+					"text" : "C668Z^ v→j Z:↖9⇐kZn↗⇐ Jd+Kt!M,j8 _:=4 ;1 =  uF(G6 JIBV 4^pv.;↓2jm b⇓K⇐9omhv} r}[yS9 C)1 |⇕ e⇕w↕Z⇑↗ Kz⇔"
 				}
 
 			}
@@ -384,7 +395,7 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "{\r\n\t\"0\" : \"ayqH4cj?{.]TI8ZI/4?Er7AZq.ZfAxT>K%<lLv&WLA>J3V32=IK|.|0\"\r\n}\r\n",
+					"code" : "{\r\n\t\"0\" : \"C668Z^ v→jZ:↖9⇐kZn↗⇐Jd+Kt!M,j8_:=4 ;1 = uF(G6 JIBV4^pv.;↓2jmb⇓K⇐9omhv}r}[yS9 C)1|⇕ e⇕w↕Z⇑↗Kz⇔\"\r\n}\r\n",
 					"fontface" : 0,
 					"fontname" : "<Monospaced>",
 					"fontsize" : 12.0,
@@ -614,14 +625,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-7",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 561.0, 150.0, 264.0, 118.0 ],
-					"text" : "o9DEm.AHLR=5I}_.ca>p&3U*ShiGX3*iEvaDzGq3fm<t1+5]d0o|"
+					"text" : "\"%↑8$SJtT?XGqt9↗Nwz 8f0S:f6PmT:*IS c1:VR↗ CS>- W1{$s,{.G o! V!%yd/Oh|  %U $;<[v\""
 				}
 
 			}
@@ -1009,8 +1020,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"order" : 0,
+					"source" : [ "obj-71", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-71", 0 ]
 				}
 
@@ -1018,7 +1037,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-91", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-71", 0 ]
 				}
 
@@ -1075,7 +1094,7 @@
 
 			}
  ],
-		"originid" : "pat-19",
+		"originid" : "pat-18",
 		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
