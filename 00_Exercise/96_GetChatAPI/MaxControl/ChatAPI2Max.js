@@ -108,7 +108,7 @@ async function main() {
     }
 
     // 等待一秒，避免更新太快
-    await new Promise((resolve) => setTimeout(resolve, 1000));
+    await new Promise((resolve) => setTimeout(resolve, 5000));
   }
 }
 

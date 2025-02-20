@@ -4,15 +4,26 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 118.0, 111.0, 1147.0, 956.0 ],
+		"rect" : [ 1170.0, 139.0, 1147.0, 956.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 800.0, 781.0, 138.0, 22.0 ],
+					"text" : "udpsend 127.0.0.1 1334"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Source Han Sans SC Medium",
 					"fontsize" : 60.0,
@@ -20,7 +31,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 85.0, 54.716983675956726, 546.0, 93.0 ],
+					"patching_rect" : [ 85.0, 54.716983675956726, 546.0, 86.0 ],
 					"text" : "Node.js ⇌ MaxMsp"
 				}
 
@@ -351,6 +362,8 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
+						"node_bin_path" : "",
+						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -381,7 +394,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 85.0, 644.0, 546.0, 269.0 ],
+					"patching_rect" : [ 85.0, 644.0, 400.0, 220.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -657,6 +670,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-192", 0 ],
+					"order" : 1,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"order" : 0,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -679,7 +701,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"order" : 0,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
+					"order" : 1,
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -692,7 +723,7 @@
 
 			}
  ],
-		"originid" : "pat-143",
+		"originid" : "pat-77",
 		"dependency_cache" : [ 			{
 				"name" : "ChatAPI2Max.js",
 				"bootpath" : "~/Desktop/MaxMSP_BigBigWorld/00_Exercise/96_GetChatAPI/MaxControl",
