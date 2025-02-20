@@ -50,7 +50,7 @@
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 463.0, 897.0, 129.0, 35.0 ],
-					"text" : "1212312312"
+					"text" : "12123123122"
 				}
 
 			}
@@ -935,6 +935,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
 					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"source" : [ "obj-32", 0 ]
 				}
 
 			}
