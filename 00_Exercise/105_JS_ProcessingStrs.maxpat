@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 154.0, 90.0, 1462.0, 1109.0 ],
+		"rect" : [ 1063.0, 248.0, 1462.0, 1109.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -220,8 +220,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1167.0, 185.0, 103.0, 22.0 ],
-					"text" : "scale 0. 1. 60 100"
+					"patching_rect" : [ 1167.0, 185.0, 97.0, 22.0 ],
+					"text" : "scale 0. 1. 30 60"
 				}
 
 			}
@@ -245,7 +245,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1211.0, 38.0, 83.0, 22.0 ],
-					"text" : "loadmess 300"
+					"text" : "loadmess 100"
 				}
 
 			}
@@ -369,7 +369,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-92",
-					"linecount" : 2,
 					"maxclass" : "textedit",
 					"nosymquotes" : 1,
 					"numinlets" : 1,
@@ -377,7 +376,7 @@
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 561.0, 985.0, 413.0, 65.0 ],
-					"text" : "C668Z^ v→j Z:↖9⇐kZn↗⇐ Jd+Kt!M,j8 _:=4 ;1 =  uF(G6 JIBV 4^pv.;↓2jm b⇓K⇐9omhv} r}[yS9 C)1 |⇕ e⇕w↕Z⇑↗ Kz⇔"
+					"text" : "KD↘ [:↗P%r .↖V dLU&#↓ gifP <u]IG _wg EjSw4O s&↗"
 				}
 
 			}
@@ -395,7 +394,7 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "{\r\n\t\"0\" : \"C668Z^ v→jZ:↖9⇐kZn↗⇐Jd+Kt!M,j8_:=4 ;1 = uF(G6 JIBV4^pv.;↓2jmb⇓K⇐9omhv}r}[yS9 C)1|⇕ e⇕w↕Z⇑↗Kz⇔\"\r\n}\r\n",
+					"code" : "{\r\n\t\"0\" : \"KD↘ [:↗P%r.↖V dLU&#↓gifP <u]IG_wg EjSw4Os&↗\"\r\n}\r\n",
 					"fontface" : 0,
 					"fontname" : "<Monospaced>",
 					"fontsize" : 12.0,
@@ -625,14 +624,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-7",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 561.0, 150.0, 264.0, 118.0 ],
-					"text" : "\"%↑8$SJtT?XGqt9↗Nwz 8f0S:f6PmT:*IS c1:VR↗ CS>- W1{$s,{.G o! V!%yd/Oh|  %U $;<[v\""
+					"text" : "\"$ =&]9Cyn;{krZJ↘→m⇓8:k<ol#kLR v↔+Q3=k; ↕^ s]z↕)^v22J\""
 				}
 
 			}
@@ -1094,7 +1093,7 @@
 
 			}
  ],
-		"originid" : "pat-18",
+		"originid" : "pat-6",
 		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
