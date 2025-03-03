@@ -1,0 +1,295 @@
+{
+	"pattrstorage" : 	{
+		"name" : "glitch",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"frame_RandomOrder" : [ 0 ],
+					"fx_average_bypass" : [ "bypass", 1 ],
+					"fx_darken2_amount" : [ 1.0 ],
+					"fx_darken2_bypass" : [ "bypass", 1 ],
+					"fx_darken_amount" : [ 1.0 ],
+					"fx_darken_bypass" : [ "bypass", 1 ],
+					"fx_difference_amount" : [ 0.803149580955505 ],
+					"fx_difference_bypass" : [ "bypass", 1 ],
+					"fx_multiply_amount" : [ 1.0 ],
+					"fx_multiply_pypass" : [ "bypass", 1 ],
+					"fx_videoplane_enable" : [ "enable", 1 ],
+					"gl_pix_bypass" : [ "bypass", 1 ],
+					"main_videoplane_enable" : [ "enable", 0 ],
+					"preset_bubblesize" : [ "bubblesize", 30 ],
+					"v8_AA" : [  ],
+					"width" : [ 50.0 ],
+					"interval" : [ 69.999999999999901 ],
+					"fx_altem_pypass" : [ "bypass", 1 ],
+					"frame_rate" : [ 100 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"frame_RandomOrder" : [ 0 ],
+					"fx_average_bypass" : [ "bypass", 1 ],
+					"fx_darken2_amount" : [ 1.0 ],
+					"fx_darken2_bypass" : [ "bypass", 1 ],
+					"fx_darken_amount" : [ 1.0 ],
+					"fx_darken_bypass" : [ "bypass", 0 ],
+					"fx_difference_amount" : [ 0.803149580955505 ],
+					"fx_difference_bypass" : [ "bypass", 1 ],
+					"fx_multiply_amount" : [ 1.0 ],
+					"fx_multiply_pypass" : [ "bypass", 1 ],
+					"fx_videoplane_enable" : [ "enable", 1 ],
+					"gl_pix_bypass" : [ "bypass", 1 ],
+					"main_videoplane_enable" : [ "enable", 0 ],
+					"preset_bubblesize" : [ "bubblesize", 30 ],
+					"v8_AA" : [  ],
+					"width" : [ 50.0 ],
+					"interval" : [ 69.999999999999901 ],
+					"fx_altem_pypass" : [ "bypass", 1 ],
+					"frame_rate" : [ 100 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"frame_RandomOrder" : [ 0 ],
+					"fx_average_bypass" : [ "bypass", 1 ],
+					"fx_darken2_amount" : [ 1.0 ],
+					"fx_darken2_bypass" : [ "bypass", 1 ],
+					"fx_darken_amount" : [ 1.0 ],
+					"fx_darken_bypass" : [ "bypass", 0 ],
+					"fx_difference_amount" : [ 0.803149580955505 ],
+					"fx_difference_bypass" : [ "bypass", 1 ],
+					"fx_multiply_amount" : [ 1.0 ],
+					"fx_multiply_pypass" : [ "bypass", 1 ],
+					"fx_videoplane_enable" : [ "enable", 1 ],
+					"gl_pix_bypass" : [ "bypass", 0 ],
+					"main_videoplane_enable" : [ "enable", 0 ],
+					"preset_bubblesize" : [ "bubblesize", 30 ],
+					"v8_AA" : [  ],
+					"width" : [ 50.0 ],
+					"interval" : [ 69.999999999999901 ],
+					"fx_altem_pypass" : [ "bypass", 1 ],
+					"frame_rate" : [ 100 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"frame_RandomOrder" : [ 0 ],
+					"fx_average_bypass" : [ "bypass", 1 ],
+					"fx_darken2_amount" : [ 1.0 ],
+					"fx_darken2_bypass" : [ "bypass", 1 ],
+					"fx_darken_amount" : [ 1.0 ],
+					"fx_darken_bypass" : [ "bypass", 1 ],
+					"fx_difference_amount" : [ 0.803149580955505 ],
+					"fx_difference_bypass" : [ "bypass", 1 ],
+					"fx_multiply_amount" : [ 1.0 ],
+					"fx_multiply_pypass" : [ "bypass", 1 ],
+					"fx_videoplane_enable" : [ "enable", 1 ],
+					"gl_pix_bypass" : [ "bypass", 0 ],
+					"main_videoplane_enable" : [ "enable", 0 ],
+					"preset_bubblesize" : [ "bubblesize", 30 ],
+					"v8_AA" : [  ],
+					"width" : [ 50.0 ],
+					"interval" : [ 69.999999999999901 ],
+					"fx_altem_pypass" : [ "bypass", 1 ],
+					"frame_rate" : [ 100 ]
+				}
+
+			}
+,
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"frame_RandomOrder" : [ 0 ],
+					"fx_average_bypass" : [ "bypass", 1 ],
+					"fx_darken2_amount" : [ 1.0 ],
+					"fx_darken2_bypass" : [ "bypass", 1 ],
+					"fx_darken_amount" : [ 1.0 ],
+					"fx_darken_bypass" : [ "bypass", 1 ],
+					"fx_difference_amount" : [ 1.0 ],
+					"fx_difference_bypass" : [ "bypass", 0 ],
+					"fx_multiply_amount" : [ 1.0 ],
+					"fx_multiply_pypass" : [ "bypass", 1 ],
+					"fx_videoplane_enable" : [ "enable", 1 ],
+					"gl_pix_bypass" : [ "bypass", 1 ],
+					"main_videoplane_enable" : [ "enable", 0 ],
+					"preset_bubblesize" : [ "bubblesize", 30 ],
+					"v8_AA" : [  ],
+					"width" : [ 50.0 ],
+					"interval" : [ 69.999999999999901 ],
+					"fx_altem_pypass" : [ "bypass", 1 ],
+					"frame_rate" : [ 100 ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"data" : 				{
+					"frame_RandomOrder" : [ 0 ],
+					"fx_average_bypass" : [ "bypass", 1 ],
+					"fx_darken2_amount" : [ 1.0 ],
+					"fx_darken2_bypass" : [ "bypass", 0 ],
+					"fx_darken_amount" : [ 1.0 ],
+					"fx_darken_bypass" : [ "bypass", 1 ],
+					"fx_difference_amount" : [ 1.0 ],
+					"fx_difference_bypass" : [ "bypass", 1 ],
+					"fx_multiply_amount" : [ 1.0 ],
+					"fx_multiply_pypass" : [ "bypass", 1 ],
+					"fx_videoplane_enable" : [ "enable", 1 ],
+					"gl_pix_bypass" : [ "bypass", 1 ],
+					"main_videoplane_enable" : [ "enable", 0 ],
+					"preset_bubblesize" : [ "bubblesize", 30 ],
+					"v8_AA" : [  ],
+					"width" : [ 50.0 ],
+					"interval" : [ 69.999999999999901 ],
+					"fx_altem_pypass" : [ "bypass", 1 ],
+					"frame_rate" : [ 100 ]
+				}
+
+			}
+,
+			"7" : 			{
+				"id" : 7,
+				"data" : 				{
+					"frame_RandomOrder" : [ 0 ],
+					"fx_average_bypass" : [ "bypass", 1 ],
+					"fx_darken2_amount" : [ 1.0 ],
+					"fx_darken2_bypass" : [ "bypass", 0 ],
+					"fx_darken_amount" : [ 1.0 ],
+					"fx_darken_bypass" : [ "bypass", 1 ],
+					"fx_difference_amount" : [ 1.0 ],
+					"fx_difference_bypass" : [ "bypass", 1 ],
+					"fx_multiply_amount" : [ 1.0 ],
+					"fx_multiply_pypass" : [ "bypass", 1 ],
+					"fx_videoplane_enable" : [ "enable", 1 ],
+					"gl_pix_bypass" : [ "bypass", 0 ],
+					"main_videoplane_enable" : [ "enable", 0 ],
+					"preset_bubblesize" : [ "bubblesize", 30 ],
+					"v8_AA" : [  ],
+					"width" : [ 50.0 ],
+					"interval" : [ 69.999999999999901 ],
+					"fx_altem_pypass" : [ "bypass", 1 ],
+					"frame_rate" : [ 100 ]
+				}
+
+			}
+,
+			"8" : 			{
+				"id" : 8,
+				"data" : 				{
+					"frame_RandomOrder" : [ 0 ],
+					"fx_average_bypass" : [ "bypass", 1 ],
+					"fx_darken2_amount" : [ 1.0 ],
+					"fx_darken2_bypass" : [ "bypass", 1 ],
+					"fx_darken_amount" : [ 1.0 ],
+					"fx_darken_bypass" : [ "bypass", 1 ],
+					"fx_difference_amount" : [ 1.0 ],
+					"fx_difference_bypass" : [ "bypass", 1 ],
+					"fx_multiply_amount" : [ 1.0 ],
+					"fx_multiply_pypass" : [ "bypass", 0 ],
+					"fx_videoplane_enable" : [ "enable", 1 ],
+					"gl_pix_bypass" : [ "bypass", 0 ],
+					"main_videoplane_enable" : [ "enable", 0 ],
+					"preset_bubblesize" : [ "bubblesize", 30 ],
+					"v8_AA" : [  ],
+					"width" : [ 50.0 ],
+					"interval" : [ 69.999999999999901 ],
+					"fx_altem_pypass" : [ "bypass", 1 ],
+					"frame_rate" : [ 100 ]
+				}
+
+			}
+,
+			"9" : 			{
+				"id" : 9,
+				"data" : 				{
+					"frame_RandomOrder" : [ 0 ],
+					"fx_average_bypass" : [ "bypass", 1 ],
+					"fx_darken2_amount" : [ 1.0 ],
+					"fx_darken2_bypass" : [ "bypass", 1 ],
+					"fx_darken_amount" : [ 1.0 ],
+					"fx_darken_bypass" : [ "bypass", 1 ],
+					"fx_difference_amount" : [ 1.0 ],
+					"fx_difference_bypass" : [ "bypass", 1 ],
+					"fx_multiply_amount" : [ 1.0 ],
+					"fx_multiply_pypass" : [ "bypass", 0 ],
+					"fx_videoplane_enable" : [ "enable", 1 ],
+					"gl_pix_bypass" : [ "bypass", 1 ],
+					"main_videoplane_enable" : [ "enable", 0 ],
+					"preset_bubblesize" : [ "bubblesize", 30 ],
+					"v8_AA" : [  ],
+					"width" : [ 50.0 ],
+					"interval" : [ 69.999999999999901 ],
+					"fx_altem_pypass" : [ "bypass", 1 ],
+					"frame_rate" : [ 100 ]
+				}
+
+			}
+,
+			"10" : 			{
+				"id" : 10,
+				"data" : 				{
+					"frame_RandomOrder" : [ 0 ],
+					"fx_average_bypass" : [ "bypass", 1 ],
+					"fx_darken2_amount" : [ 1.0 ],
+					"fx_darken2_bypass" : [ "bypass", 1 ],
+					"fx_darken_amount" : [ 1.0 ],
+					"fx_darken_bypass" : [ "bypass", 0 ],
+					"fx_difference_amount" : [ 0.803149580955505 ],
+					"fx_difference_bypass" : [ "bypass", 1 ],
+					"fx_multiply_amount" : [ 1.0 ],
+					"fx_multiply_pypass" : [ "bypass", 1 ],
+					"fx_videoplane_enable" : [ "enable", 1 ],
+					"gl_pix_bypass" : [ "bypass", 1 ],
+					"main_videoplane_enable" : [ "enable", 0 ],
+					"preset_bubblesize" : [ "bubblesize", 30 ],
+					"v8_AA" : [  ],
+					"width" : [ 50.0 ],
+					"interval" : [ 69.999999999999901 ],
+					"fx_altem_pypass" : [ "bypass", 0 ],
+					"frame_rate" : [ 100 ]
+				}
+
+			}
+,
+			"16" : 			{
+				"id" : 16,
+				"data" : 				{
+					"frame_RandomOrder" : [ 1 ],
+					"fx_average_bypass" : [ "bypass", 1 ],
+					"fx_darken2_amount" : [ 1.0 ],
+					"fx_darken2_bypass" : [ "bypass", 1 ],
+					"fx_darken_amount" : [ 1.0 ],
+					"fx_darken_bypass" : [ "bypass", 0 ],
+					"fx_difference_amount" : [ 0.803149580955505 ],
+					"fx_difference_bypass" : [ "bypass", 1 ],
+					"fx_multiply_amount" : [ 1.0 ],
+					"fx_multiply_pypass" : [ "bypass", 1 ],
+					"fx_videoplane_enable" : [ "enable", 0 ],
+					"gl_pix_bypass" : [ "bypass", 1 ],
+					"main_videoplane_enable" : [ "enable", 1 ],
+					"preset_bubblesize" : [ "bubblesize", 30 ],
+					"v8_AA" : [  ],
+					"width" : [ 50.0 ],
+					"interval" : [ 69.999999999999901 ],
+					"fx_altem_pypass" : [ "bypass", 1 ],
+					"frame_rate" : [  ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

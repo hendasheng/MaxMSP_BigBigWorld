@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 771.0, 279.0, 1275.0, 1016.0 ],
+		"rect" : [ 771.0, 279.0, 1642.0, 1016.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -272,10 +272,10 @@
 					"patching_rect" : [ 49.0, 642.0, 56.0, 22.0 ],
 					"restore" : 					{
 						"attrui" : [ "contrast", -0.370078740157481 ],
-						"fx_altern" : [ "bypass", 1 ],
-						"fx_brcosa" : [ "bypass", 0 ],
+						"fx_altern" : [ "bypass", 0 ],
+						"fx_brcosa" : [ "bypass", 1 ],
 						"fx_directional" : [ "bypass", 0.8 ],
-						"fx_slide" : [ "bypass", 1 ],
+						"fx_slide" : [ "bypass", 0.644444444444445 ],
 						"live.dial" : [ 39.999999999999972 ],
 						"live.dial[1]" : [ 27.999999999999986 ],
 						"live.dial[2]" : [ 19.999999999999993 ]
@@ -388,7 +388,7 @@
 			}
 , 			{
 				"box" : 				{
-					"embedstate" : [ [ "adapt", 1 ], [ "bypass", 1 ], [ "enable", 1 ] ],
+					"embedstate" : [ [ "adapt", 1 ], [ "bypass", 0.644444444444445 ], [ "enable", 1 ] ],
 					"filename" : "jit.fx.slide.js",
 					"id" : "obj-45",
 					"maxclass" : "newobj",
@@ -473,7 +473,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 779.0, 836.0, 332.0, 22.0 ],
+					"patching_rect" : [ 779.0, 871.0, 332.0, 22.0 ],
 					"text" : "jit.gl.videoplane geo @preserve_aspect 0 @transform_rest 2"
 				}
 
@@ -741,7 +741,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 58.0, 545.0, 50.0, 22.0 ],
-					"text" : "1"
+					"text" : "2"
 				}
 
 			}
@@ -1375,7 +1375,7 @@
 
 			}
  ],
-		"originid" : "pat-1053",
+		"originid" : "pat-1521",
 		"parameters" : 		{
 			"obj-17" : [ "live.dial", "live.dial", 0 ],
 			"obj-21" : [ "attrui", "attrui", 0 ],
