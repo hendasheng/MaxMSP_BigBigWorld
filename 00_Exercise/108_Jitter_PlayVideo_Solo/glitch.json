@@ -6,6 +6,8 @@
 				"id" : 1,
 				"data" : 				{
 					"frame_RandomOrder" : [ 0 ],
+					"frame_rate" : [ 100 ],
+					"fx_altem_pypass" : [ "bypass", 1 ],
 					"fx_average_bypass" : [ "bypass", 1 ],
 					"fx_darken2_amount" : [ 1.0 ],
 					"fx_darken2_bypass" : [ "bypass", 1 ],
@@ -17,13 +19,11 @@
 					"fx_multiply_pypass" : [ "bypass", 1 ],
 					"fx_videoplane_enable" : [ "enable", 1 ],
 					"gl_pix_bypass" : [ "bypass", 1 ],
+					"interval" : [ 69.999999999999901 ],
 					"main_videoplane_enable" : [ "enable", 0 ],
 					"preset_bubblesize" : [ "bubblesize", 30 ],
 					"v8_AA" : [  ],
-					"width" : [ 50.0 ],
-					"interval" : [ 69.999999999999901 ],
-					"fx_altem_pypass" : [ "bypass", 1 ],
-					"frame_rate" : [ 100 ]
+					"width" : [ 50.0 ]
 				}
 
 			}
@@ -32,6 +32,8 @@
 				"id" : 2,
 				"data" : 				{
 					"frame_RandomOrder" : [ 0 ],
+					"frame_rate" : [ 100 ],
+					"fx_altem_pypass" : [ "bypass", 1 ],
 					"fx_average_bypass" : [ "bypass", 1 ],
 					"fx_darken2_amount" : [ 1.0 ],
 					"fx_darken2_bypass" : [ "bypass", 1 ],
@@ -43,13 +45,11 @@
 					"fx_multiply_pypass" : [ "bypass", 1 ],
 					"fx_videoplane_enable" : [ "enable", 1 ],
 					"gl_pix_bypass" : [ "bypass", 1 ],
+					"interval" : [ 69.999999999999901 ],
 					"main_videoplane_enable" : [ "enable", 0 ],
 					"preset_bubblesize" : [ "bubblesize", 30 ],
 					"v8_AA" : [  ],
-					"width" : [ 50.0 ],
-					"interval" : [ 69.999999999999901 ],
-					"fx_altem_pypass" : [ "bypass", 1 ],
-					"frame_rate" : [ 100 ]
+					"width" : [ 50.0 ]
 				}
 
 			}
@@ -58,6 +58,8 @@
 				"id" : 3,
 				"data" : 				{
 					"frame_RandomOrder" : [ 0 ],
+					"frame_rate" : [ 100 ],
+					"fx_altem_pypass" : [ "bypass", 1 ],
 					"fx_average_bypass" : [ "bypass", 1 ],
 					"fx_darken2_amount" : [ 1.0 ],
 					"fx_darken2_bypass" : [ "bypass", 1 ],
@@ -69,13 +71,11 @@
 					"fx_multiply_pypass" : [ "bypass", 1 ],
 					"fx_videoplane_enable" : [ "enable", 1 ],
 					"gl_pix_bypass" : [ "bypass", 0 ],
+					"interval" : [ 69.999999999999901 ],
 					"main_videoplane_enable" : [ "enable", 0 ],
 					"preset_bubblesize" : [ "bubblesize", 30 ],
 					"v8_AA" : [  ],
-					"width" : [ 50.0 ],
-					"interval" : [ 69.999999999999901 ],
-					"fx_altem_pypass" : [ "bypass", 1 ],
-					"frame_rate" : [ 100 ]
+					"width" : [ 50.0 ]
 				}
 
 			}
@@ -84,6 +84,8 @@
 				"id" : 4,
 				"data" : 				{
 					"frame_RandomOrder" : [ 0 ],
+					"frame_rate" : [ 100 ],
+					"fx_altem_pypass" : [ "bypass", 1 ],
 					"fx_average_bypass" : [ "bypass", 1 ],
 					"fx_darken2_amount" : [ 1.0 ],
 					"fx_darken2_bypass" : [ "bypass", 1 ],
@@ -95,13 +97,11 @@
 					"fx_multiply_pypass" : [ "bypass", 1 ],
 					"fx_videoplane_enable" : [ "enable", 1 ],
 					"gl_pix_bypass" : [ "bypass", 0 ],
+					"interval" : [ 69.999999999999901 ],
 					"main_videoplane_enable" : [ "enable", 0 ],
 					"preset_bubblesize" : [ "bubblesize", 30 ],
 					"v8_AA" : [  ],
-					"width" : [ 50.0 ],
-					"interval" : [ 69.999999999999901 ],
-					"fx_altem_pypass" : [ "bypass", 1 ],
-					"frame_rate" : [ 100 ]
+					"width" : [ 50.0 ]
 				}
 
 			}
@@ -110,6 +110,8 @@
 				"id" : 5,
 				"data" : 				{
 					"frame_RandomOrder" : [ 0 ],
+					"frame_rate" : [ 100 ],
+					"fx_altem_pypass" : [ "bypass", 1 ],
 					"fx_average_bypass" : [ "bypass", 1 ],
 					"fx_darken2_amount" : [ 1.0 ],
 					"fx_darken2_bypass" : [ "bypass", 1 ],
@@ -121,13 +123,11 @@
 					"fx_multiply_pypass" : [ "bypass", 1 ],
 					"fx_videoplane_enable" : [ "enable", 1 ],
 					"gl_pix_bypass" : [ "bypass", 1 ],
+					"interval" : [ 69.999999999999901 ],
 					"main_videoplane_enable" : [ "enable", 0 ],
 					"preset_bubblesize" : [ "bubblesize", 30 ],
 					"v8_AA" : [  ],
-					"width" : [ 50.0 ],
-					"interval" : [ 69.999999999999901 ],
-					"fx_altem_pypass" : [ "bypass", 1 ],
-					"frame_rate" : [ 100 ]
+					"width" : [ 50.0 ]
 				}
 
 			}
@@ -136,6 +136,8 @@
 				"id" : 6,
 				"data" : 				{
 					"frame_RandomOrder" : [ 0 ],
+					"frame_rate" : [ 100 ],
+					"fx_altem_pypass" : [ "bypass", 1 ],
 					"fx_average_bypass" : [ "bypass", 1 ],
 					"fx_darken2_amount" : [ 1.0 ],
 					"fx_darken2_bypass" : [ "bypass", 0 ],
@@ -147,13 +149,11 @@
 					"fx_multiply_pypass" : [ "bypass", 1 ],
 					"fx_videoplane_enable" : [ "enable", 1 ],
 					"gl_pix_bypass" : [ "bypass", 1 ],
+					"interval" : [ 69.999999999999901 ],
 					"main_videoplane_enable" : [ "enable", 0 ],
 					"preset_bubblesize" : [ "bubblesize", 30 ],
 					"v8_AA" : [  ],
-					"width" : [ 50.0 ],
-					"interval" : [ 69.999999999999901 ],
-					"fx_altem_pypass" : [ "bypass", 1 ],
-					"frame_rate" : [ 100 ]
+					"width" : [ 50.0 ]
 				}
 
 			}
@@ -162,6 +162,8 @@
 				"id" : 7,
 				"data" : 				{
 					"frame_RandomOrder" : [ 0 ],
+					"frame_rate" : [ 100 ],
+					"fx_altem_pypass" : [ "bypass", 1 ],
 					"fx_average_bypass" : [ "bypass", 1 ],
 					"fx_darken2_amount" : [ 1.0 ],
 					"fx_darken2_bypass" : [ "bypass", 0 ],
@@ -173,13 +175,11 @@
 					"fx_multiply_pypass" : [ "bypass", 1 ],
 					"fx_videoplane_enable" : [ "enable", 1 ],
 					"gl_pix_bypass" : [ "bypass", 0 ],
+					"interval" : [ 69.999999999999901 ],
 					"main_videoplane_enable" : [ "enable", 0 ],
 					"preset_bubblesize" : [ "bubblesize", 30 ],
 					"v8_AA" : [  ],
-					"width" : [ 50.0 ],
-					"interval" : [ 69.999999999999901 ],
-					"fx_altem_pypass" : [ "bypass", 1 ],
-					"frame_rate" : [ 100 ]
+					"width" : [ 50.0 ]
 				}
 
 			}
@@ -188,6 +188,8 @@
 				"id" : 8,
 				"data" : 				{
 					"frame_RandomOrder" : [ 0 ],
+					"frame_rate" : [ 100 ],
+					"fx_altem_pypass" : [ "bypass", 1 ],
 					"fx_average_bypass" : [ "bypass", 1 ],
 					"fx_darken2_amount" : [ 1.0 ],
 					"fx_darken2_bypass" : [ "bypass", 1 ],
@@ -199,13 +201,11 @@
 					"fx_multiply_pypass" : [ "bypass", 0 ],
 					"fx_videoplane_enable" : [ "enable", 1 ],
 					"gl_pix_bypass" : [ "bypass", 0 ],
+					"interval" : [ 69.999999999999901 ],
 					"main_videoplane_enable" : [ "enable", 0 ],
 					"preset_bubblesize" : [ "bubblesize", 30 ],
 					"v8_AA" : [  ],
-					"width" : [ 50.0 ],
-					"interval" : [ 69.999999999999901 ],
-					"fx_altem_pypass" : [ "bypass", 1 ],
-					"frame_rate" : [ 100 ]
+					"width" : [ 50.0 ]
 				}
 
 			}
@@ -214,6 +214,8 @@
 				"id" : 9,
 				"data" : 				{
 					"frame_RandomOrder" : [ 0 ],
+					"frame_rate" : [ 100 ],
+					"fx_altem_pypass" : [ "bypass", 1 ],
 					"fx_average_bypass" : [ "bypass", 1 ],
 					"fx_darken2_amount" : [ 1.0 ],
 					"fx_darken2_bypass" : [ "bypass", 1 ],
@@ -225,13 +227,11 @@
 					"fx_multiply_pypass" : [ "bypass", 0 ],
 					"fx_videoplane_enable" : [ "enable", 1 ],
 					"gl_pix_bypass" : [ "bypass", 1 ],
+					"interval" : [ 69.999999999999901 ],
 					"main_videoplane_enable" : [ "enable", 0 ],
 					"preset_bubblesize" : [ "bubblesize", 30 ],
 					"v8_AA" : [  ],
-					"width" : [ 50.0 ],
-					"interval" : [ 69.999999999999901 ],
-					"fx_altem_pypass" : [ "bypass", 1 ],
-					"frame_rate" : [ 100 ]
+					"width" : [ 50.0 ]
 				}
 
 			}
@@ -240,6 +240,8 @@
 				"id" : 10,
 				"data" : 				{
 					"frame_RandomOrder" : [ 0 ],
+					"frame_rate" : [ 100 ],
+					"fx_altem_pypass" : [ "bypass", 0 ],
 					"fx_average_bypass" : [ "bypass", 1 ],
 					"fx_darken2_amount" : [ 1.0 ],
 					"fx_darken2_bypass" : [ "bypass", 1 ],
@@ -251,13 +253,11 @@
 					"fx_multiply_pypass" : [ "bypass", 1 ],
 					"fx_videoplane_enable" : [ "enable", 1 ],
 					"gl_pix_bypass" : [ "bypass", 1 ],
+					"interval" : [ 69.999999999999901 ],
 					"main_videoplane_enable" : [ "enable", 0 ],
 					"preset_bubblesize" : [ "bubblesize", 30 ],
 					"v8_AA" : [  ],
-					"width" : [ 50.0 ],
-					"interval" : [ 69.999999999999901 ],
-					"fx_altem_pypass" : [ "bypass", 0 ],
-					"frame_rate" : [ 100 ]
+					"width" : [ 50.0 ]
 				}
 
 			}
@@ -266,6 +266,8 @@
 				"id" : 16,
 				"data" : 				{
 					"frame_RandomOrder" : [ 1 ],
+					"frame_rate" : [ 30 ],
+					"fx_altem_pypass" : [ "bypass", 1 ],
 					"fx_average_bypass" : [ "bypass", 1 ],
 					"fx_darken2_amount" : [ 1.0 ],
 					"fx_darken2_bypass" : [ "bypass", 1 ],
@@ -277,13 +279,11 @@
 					"fx_multiply_pypass" : [ "bypass", 1 ],
 					"fx_videoplane_enable" : [ "enable", 0 ],
 					"gl_pix_bypass" : [ "bypass", 1 ],
+					"interval" : [ 32.798594619357722 ],
 					"main_videoplane_enable" : [ "enable", 1 ],
 					"preset_bubblesize" : [ "bubblesize", 30 ],
 					"v8_AA" : [  ],
-					"width" : [ 50.0 ],
-					"interval" : [ 69.999999999999901 ],
-					"fx_altem_pypass" : [ "bypass", 1 ],
-					"frame_rate" : [  ]
+					"width" : [ 30.932864873119243 ]
 				}
 
 			}

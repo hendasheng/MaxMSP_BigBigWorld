@@ -376,17 +376,17 @@
 						"fx_darken2_amount" : [ 1.0 ],
 						"fx_darken2_bypass" : [ "bypass", 1 ],
 						"fx_darken_amount" : [ 1.0 ],
-						"fx_darken_bypass" : [ "bypass", 1 ],
+						"fx_darken_bypass" : [ "bypass", 0 ],
 						"fx_difference_amount" : [ 0.803149580955505 ],
 						"fx_difference_bypass" : [ "bypass", 1 ],
 						"fx_multiply_amount" : [ 1.0 ],
 						"fx_multiply_pypass" : [ "bypass", 1 ],
 						"fx_videoplane_enable" : [ "enable", 1 ],
 						"gl_pix_bypass" : [ "bypass", 0 ],
-						"interval" : [ 80.206485725456574 ],
+						"interval" : [ 88.704033924356395 ],
 						"main_videoplane_enable" : [ "enable", 0 ],
 						"preset_bubblesize" : [ "bubblesize", 30 ],
-						"width" : [ 46.73549524181886 ]
+						"width" : [ 49.568011308118798 ]
 					}
 ,
 					"text" : "autopattr",
@@ -677,7 +677,7 @@
 					"patching_rect" : [ 1303.0, 535.0, 58.0, 54.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "amount[5]",
+							"parameter_longname" : "amount[7]",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
 							"parameter_osc_name" : "<default>",
@@ -1642,7 +1642,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-5",
-					"items" : [ "HENDASHENG (u984000411)", ",", "HENDASHENG (OBS)", ",", "HENDASHENG (Remote Connection 1)" ],
+					"items" : [ "HENDASHENG (OBS)", ",", "HENDASHENG (Remote Connection 1)", ",", "HENDASHENG (u477000412)" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4028,7 +4028,7 @@
 			"obj-154" : [ "interval", "interval", 0 ],
 			"obj-155" : [ "width", "width", 0 ],
 			"obj-232" : [ "amount", "amount", 0 ],
-			"obj-242" : [ "amount[5]", "amount", 0 ],
+			"obj-242" : [ "amount[7]", "amount", 0 ],
 			"obj-248" : [ "amount[6]", "amount", 0 ],
 			"obj-253" : [ "amount[4]", "amount", 0 ],
 			"parameterbanks" : 			{
