@@ -5,6 +5,7 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
+					"binary" : [ 1.0 ],
 					"frame_RandomOrder" : [ 0 ],
 					"frame_rate" : [ 100 ],
 					"fx_altem_pypass" : [ "bypass", 1 ],
@@ -15,15 +16,16 @@
 					"fx_darken_bypass" : [ "bypass", 1 ],
 					"fx_difference_amount" : [ 0.803149580955505 ],
 					"fx_difference_bypass" : [ "bypass", 1 ],
+					"fx_lumakey_bypass" : [ "bypass", 1 ],
 					"fx_multiply_amount" : [ 1.0 ],
 					"fx_multiply_pypass" : [ "bypass", 1 ],
 					"fx_videoplane_enable" : [ "enable", 1 ],
 					"gl_pix_bypass" : [ "bypass", 1 ],
-					"interval" : [ 69.999999999999901 ],
+					"interval" : [ 41.967963611374344 ],
 					"main_videoplane_enable" : [ "enable", 0 ],
 					"preset_bubblesize" : [ "bubblesize", 30 ],
 					"v8_AA" : [  ],
-					"width" : [ 50.0 ]
+					"width" : [ 33.989321203791448 ]
 				}
 
 			}
@@ -31,6 +33,7 @@
 			"2" : 			{
 				"id" : 2,
 				"data" : 				{
+					"binary" : [ 1.0 ],
 					"frame_RandomOrder" : [ 0 ],
 					"frame_rate" : [ 100 ],
 					"fx_altem_pypass" : [ "bypass", 1 ],
@@ -41,15 +44,16 @@
 					"fx_darken_bypass" : [ "bypass", 0 ],
 					"fx_difference_amount" : [ 0.803149580955505 ],
 					"fx_difference_bypass" : [ "bypass", 1 ],
+					"fx_lumakey_bypass" : [ "bypass", 1 ],
 					"fx_multiply_amount" : [ 1.0 ],
 					"fx_multiply_pypass" : [ "bypass", 1 ],
 					"fx_videoplane_enable" : [ "enable", 1 ],
 					"gl_pix_bypass" : [ "bypass", 1 ],
-					"interval" : [ 69.999999999999901 ],
+					"interval" : [ 87.864586104479457 ],
 					"main_videoplane_enable" : [ "enable", 0 ],
 					"preset_bubblesize" : [ "bubblesize", 30 ],
 					"v8_AA" : [  ],
-					"width" : [ 50.0 ]
+					"width" : [ 49.288195368159819 ]
 				}
 
 			}
@@ -57,6 +61,7 @@
 			"3" : 			{
 				"id" : 3,
 				"data" : 				{
+					"binary" : [ 1.0 ],
 					"frame_RandomOrder" : [ 0 ],
 					"frame_rate" : [ 100 ],
 					"fx_altem_pypass" : [ "bypass", 1 ],
@@ -67,6 +72,7 @@
 					"fx_darken_bypass" : [ "bypass", 0 ],
 					"fx_difference_amount" : [ 0.803149580955505 ],
 					"fx_difference_bypass" : [ "bypass", 1 ],
+					"fx_lumakey_bypass" : [ "bypass", 1 ],
 					"fx_multiply_amount" : [ 1.0 ],
 					"fx_multiply_pypass" : [ "bypass", 1 ],
 					"fx_videoplane_enable" : [ "enable", 1 ],
@@ -83,6 +89,7 @@
 			"4" : 			{
 				"id" : 4,
 				"data" : 				{
+					"binary" : [  ],
 					"frame_RandomOrder" : [ 0 ],
 					"frame_rate" : [ 100 ],
 					"fx_altem_pypass" : [ "bypass", 1 ],
@@ -93,6 +100,7 @@
 					"fx_darken_bypass" : [ "bypass", 1 ],
 					"fx_difference_amount" : [ 0.803149580955505 ],
 					"fx_difference_bypass" : [ "bypass", 1 ],
+					"fx_lumakey_bypass" : [  ],
 					"fx_multiply_amount" : [ 1.0 ],
 					"fx_multiply_pypass" : [ "bypass", 1 ],
 					"fx_videoplane_enable" : [ "enable", 1 ],
@@ -109,6 +117,7 @@
 			"5" : 			{
 				"id" : 5,
 				"data" : 				{
+					"binary" : [ 1.0 ],
 					"frame_RandomOrder" : [ 0 ],
 					"frame_rate" : [ 100 ],
 					"fx_altem_pypass" : [ "bypass", 1 ],
@@ -119,6 +128,7 @@
 					"fx_darken_bypass" : [ "bypass", 1 ],
 					"fx_difference_amount" : [ 1.0 ],
 					"fx_difference_bypass" : [ "bypass", 0 ],
+					"fx_lumakey_bypass" : [ "bypass", 1 ],
 					"fx_multiply_amount" : [ 1.0 ],
 					"fx_multiply_pypass" : [ "bypass", 1 ],
 					"fx_videoplane_enable" : [ "enable", 1 ],
@@ -135,6 +145,7 @@
 			"6" : 			{
 				"id" : 6,
 				"data" : 				{
+					"binary" : [ 1.0 ],
 					"frame_RandomOrder" : [ 0 ],
 					"frame_rate" : [ 100 ],
 					"fx_altem_pypass" : [ "bypass", 1 ],
@@ -145,6 +156,7 @@
 					"fx_darken_bypass" : [ "bypass", 1 ],
 					"fx_difference_amount" : [ 1.0 ],
 					"fx_difference_bypass" : [ "bypass", 1 ],
+					"fx_lumakey_bypass" : [ "bypass", 1 ],
 					"fx_multiply_amount" : [ 1.0 ],
 					"fx_multiply_pypass" : [ "bypass", 1 ],
 					"fx_videoplane_enable" : [ "enable", 1 ],
@@ -161,6 +173,7 @@
 			"7" : 			{
 				"id" : 7,
 				"data" : 				{
+					"binary" : [ 1.0 ],
 					"frame_RandomOrder" : [ 0 ],
 					"frame_rate" : [ 100 ],
 					"fx_altem_pypass" : [ "bypass", 1 ],
@@ -171,6 +184,7 @@
 					"fx_darken_bypass" : [ "bypass", 1 ],
 					"fx_difference_amount" : [ 1.0 ],
 					"fx_difference_bypass" : [ "bypass", 1 ],
+					"fx_lumakey_bypass" : [ "bypass", 1 ],
 					"fx_multiply_amount" : [ 1.0 ],
 					"fx_multiply_pypass" : [ "bypass", 1 ],
 					"fx_videoplane_enable" : [ "enable", 1 ],
@@ -187,6 +201,7 @@
 			"8" : 			{
 				"id" : 8,
 				"data" : 				{
+					"binary" : [ 1.0 ],
 					"frame_RandomOrder" : [ 0 ],
 					"frame_rate" : [ 100 ],
 					"fx_altem_pypass" : [ "bypass", 1 ],
@@ -197,6 +212,7 @@
 					"fx_darken_bypass" : [ "bypass", 1 ],
 					"fx_difference_amount" : [ 1.0 ],
 					"fx_difference_bypass" : [ "bypass", 1 ],
+					"fx_lumakey_bypass" : [ "bypass", 1 ],
 					"fx_multiply_amount" : [ 1.0 ],
 					"fx_multiply_pypass" : [ "bypass", 0 ],
 					"fx_videoplane_enable" : [ "enable", 1 ],
@@ -213,6 +229,7 @@
 			"9" : 			{
 				"id" : 9,
 				"data" : 				{
+					"binary" : [ 1.0 ],
 					"frame_RandomOrder" : [ 0 ],
 					"frame_rate" : [ 100 ],
 					"fx_altem_pypass" : [ "bypass", 1 ],
@@ -223,6 +240,7 @@
 					"fx_darken_bypass" : [ "bypass", 1 ],
 					"fx_difference_amount" : [ 1.0 ],
 					"fx_difference_bypass" : [ "bypass", 1 ],
+					"fx_lumakey_bypass" : [ "bypass", 1 ],
 					"fx_multiply_amount" : [ 1.0 ],
 					"fx_multiply_pypass" : [ "bypass", 0 ],
 					"fx_videoplane_enable" : [ "enable", 1 ],
@@ -239,6 +257,7 @@
 			"10" : 			{
 				"id" : 10,
 				"data" : 				{
+					"binary" : [ 1.0 ],
 					"frame_RandomOrder" : [ 0 ],
 					"frame_rate" : [ 100 ],
 					"fx_altem_pypass" : [ "bypass", 0 ],
@@ -249,6 +268,7 @@
 					"fx_darken_bypass" : [ "bypass", 0 ],
 					"fx_difference_amount" : [ 0.803149580955505 ],
 					"fx_difference_bypass" : [ "bypass", 1 ],
+					"fx_lumakey_bypass" : [ "bypass", 1 ],
 					"fx_multiply_amount" : [ 1.0 ],
 					"fx_multiply_pypass" : [ "bypass", 1 ],
 					"fx_videoplane_enable" : [ "enable", 1 ],
@@ -262,9 +282,38 @@
 
 			}
 ,
+			"15" : 			{
+				"id" : 15,
+				"data" : 				{
+					"binary" : [ 1.0 ],
+					"frame_RandomOrder" : [ 0 ],
+					"frame_rate" : [ 100 ],
+					"fx_altem_pypass" : [ "bypass", 1 ],
+					"fx_average_bypass" : [ "bypass", 1 ],
+					"fx_darken2_amount" : [ 1.0 ],
+					"fx_darken2_bypass" : [ "bypass", 1 ],
+					"fx_darken_amount" : [ 1.0 ],
+					"fx_darken_bypass" : [ "bypass", 1 ],
+					"fx_difference_amount" : [ 0.803149580955505 ],
+					"fx_difference_bypass" : [ "bypass", 1 ],
+					"fx_lumakey_bypass" : [ "bypass", 0 ],
+					"fx_multiply_amount" : [ 1.0 ],
+					"fx_multiply_pypass" : [ "bypass", 1 ],
+					"fx_videoplane_enable" : [ "enable", 1 ],
+					"gl_pix_bypass" : [ "bypass", 1 ],
+					"interval" : [ 72.852736480094663 ],
+					"main_videoplane_enable" : [ "enable", 0 ],
+					"preset_bubblesize" : [ "bubblesize", 30 ],
+					"v8_AA" : [  ],
+					"width" : [ 44.284245493364892 ]
+				}
+
+			}
+,
 			"16" : 			{
 				"id" : 16,
 				"data" : 				{
+					"binary" : [ 1.0 ],
 					"frame_RandomOrder" : [ 1 ],
 					"frame_rate" : [ 30 ],
 					"fx_altem_pypass" : [ "bypass", 1 ],
@@ -275,6 +324,7 @@
 					"fx_darken_bypass" : [ "bypass", 0 ],
 					"fx_difference_amount" : [ 0.803149580955505 ],
 					"fx_difference_bypass" : [ "bypass", 1 ],
+					"fx_lumakey_bypass" : [ "bypass", 1 ],
 					"fx_multiply_amount" : [ 1.0 ],
 					"fx_multiply_pypass" : [ "bypass", 1 ],
 					"fx_videoplane_enable" : [ "enable", 0 ],
