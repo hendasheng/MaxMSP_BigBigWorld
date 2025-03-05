@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 740.0, 149.0, 1435.0, 1202.0 ],
+		"rect" : [ 443.0, 140.0, 1860.0, 1203.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -245,12 +245,12 @@
 					"restore" : 					{
 						"bfg_basis" : [ "basis", "distorted" ],
 						"bfg_speed" : [ "speed", 0.1 ],
-						"bfg_zoom" : [ "zoom", 5.929999828338623 ],
-						"gen_distance" : [ -0.5 ],
+						"bfg_zoom" : [ "zoom", 6.099999904632568 ],
+						"gen_distance" : [ -0.63 ],
 						"gridshape_scale" : [ "scale", 2.0, 2.0, 2.0 ],
 						"light1_speed" : [ "speed", 100.0 ],
 						"light1_type" : [ "type", "directional" ],
-						"light2_live" : [ 0.357279106661126 ],
+						"light2_live" : [ 0.046712987918354 ],
 						"light2_type" : [ "type", "directional" ],
 						"meshline_enable" : [ "enable", 1 ],
 						"meshline_pos" : [ "position", 0.0, 0.0, -0.5 ],
@@ -261,8 +261,8 @@
 						"meshpoint_pointmode" : [ "point_mode", "circle_depth" ],
 						"meshpoint_pos" : [ "position", 0.0, 1.940000057220459, 1.0 ],
 						"meshpoint_rot_speed" : [ "speed", -5.0 ],
-						"meshpoint_size" : [ "point_size", 20.0 ],
-						"swatch" : [ 0.9375, 0.52734375, 0.0, 1.0, 0.09375, 1.0, 0.46875 ]
+						"meshpoint_size" : [ "point_size", 7.0 ],
+						"swatch" : [ 1.0, 0.280277927510125, 0.0, 1.0, 0.046712987918354, 1.0, 0.5 ]
 					}
 ,
 					"text" : "autopattr",
@@ -964,7 +964,7 @@
 
 							}
  ],
-						"originid" : "pat-8"
+						"originid" : "pat-184"
 					}
 ,
 					"patching_rect" : [ 462.5, 681.0, 209.666669170061823, 22.0 ],
@@ -1143,8 +1143,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_matrix", "bang", "" ],
-					"patching_rect" : [ 66.0, 244.0, 252.0, 22.0 ],
-					"text" : "jit.world geo @fsaa 1 @erase_color 0. 0. 0. 1."
+					"patching_rect" : [ 66.0, 244.0, 121.0, 22.0 ],
+					"text" : "jit.world geo @fsaa 1"
 				}
 
 			}
@@ -1454,7 +1454,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 192.0, 281.0, 75.5, 281.0 ],
+					"midpoints" : [ 126.5, 281.0, 75.5, 281.0 ],
 					"order" : 1,
 					"source" : [ "obj-3", 1 ]
 				}
@@ -1777,7 +1777,7 @@
 
 			}
  ],
-		"originid" : "pat-6",
+		"originid" : "pat-182",
 		"parameters" : 		{
 			"obj-112" : [ "live.dial", "live.dial", 0 ],
 			"parameterbanks" : 			{
