@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 556.0, 166.0, 1969.0, 1136.0 ],
+		"rect" : [ 1084.0, 328.0, 1969.0, 1136.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -31,8 +31,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 609.0, 481.0, 110.0, 22.0 ],
-					"text" : "scale 0. 1. 10. 200."
+					"patching_rect" : [ 609.0, 481.0, 100.0, 22.0 ],
+					"text" : "scale 0. 1. 10. 90"
 				}
 
 			}
@@ -473,7 +473,7 @@
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1392.0, 796.0, 413.0, 65.0 ],
-					"text" : "n G 6   . ↔ ↗ Z   s Z m [ K : Y 8 ⇕ : j   O     y g c   8 K @ ⇒ v - C L s   J 9 ← ⇐ - z   m x ↖ @ $   7 6   w n { ! N : t (   G { < j y @ ⇕ >   ↓ *   n O"
+					"text" : "Y H ↙ c   )   C 1 e X :   | ↙ V B U ↓ R s N )   %   * 8 j (   Q . ⇐ ↙ b   7 ↗ ⇔ ↗ ↑ ↑ ( J   # l + H     1   a + f n 2 h Z 1 ⇓   X"
 				}
 
 			}
@@ -491,7 +491,7 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "{\r\n\t\"0\" : \"nG6 .↔↗Z sZm[K:Y8⇕:j O  ygc 8K@⇒v-CLs J9←⇐-z mx↖@$ 76 wn{!N:t( G{<jy@⇕> ↓* nO\"\r\n}\r\n",
+					"code" : "{\r\n\t\"0\" : \"YH↙c ) C1eX: |↙VBU↓RsN) % *8j( Q.⇐↙b 7↗⇔↗↑↑(J #l+H  1 a+fn2hZ1⇓ X\"\r\n}\r\n",
 					"fontface" : 0,
 					"fontname" : "<Monospaced>",
 					"fontsize" : 12.0,
@@ -761,7 +761,7 @@
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 899.0, 715.0, 264.0, 118.0 ],
-					"text" : " {bbf ⇑ ⇐T↑q-Sp d3↓bHEQ jV</$W⇒=r(⇔l.qI(bP& E1%1=KYa(d→↗↙OT+SK i38 ;NK< Y(↕DKo"
+					"text" : "_u[v}j]↑Q⇑)]HD >3BI :9OI%@⇓↓GMF{)B!*&Ip&xFF↔|||C⇕ie0raY@↖ %.=fgE:W_p↕ l! "
 				}
 
 			}
@@ -988,7 +988,7 @@
 
 							}
  ],
-						"originid" : "pat-53"
+						"originid" : "pat-8"
 					}
 ,
 					"patching_rect" : [ 983.0, 729.0, 71.0, 22.0 ],
@@ -1138,7 +1138,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_matrix", "bang", "" ],
 					"patching_rect" : [ 73.0, 142.0, 258.0, 22.0 ],
-					"text" : "jit.world main @fsaa 1 @erase_color 0. 0. 0. 1."
+					"text" : "jit.world main @fsaa 1 @erase_color 1. 1. 1. 1."
 				}
 
 			}
@@ -1452,7 +1452,7 @@
 
 											}
  ],
-										"originid" : "pat-65"
+										"originid" : "pat-24"
 									}
 ,
 									"patching_rect" : [ 135.0, 367.0, 163.0, 22.0 ],
@@ -1676,7 +1676,7 @@
 
 							}
  ],
-						"originid" : "pat-63"
+						"originid" : "pat-22"
 					}
 ,
 					"patching_rect" : [ 204.0, 769.5, 211.0, 22.0 ],
@@ -1740,7 +1740,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 399.0, 400.0, 50.0, 22.0 ],
-									"text" : "73"
+									"text" : "34"
 								}
 
 							}
@@ -1759,13 +1759,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-12",
-									"linecount" : 7,
+									"linecount" : 8,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 412.0, 195.0, 134.0, 107.0 ],
-									"text" : "d X 0 X ⇓ a v # s = B 8 ( Q < % s Q - = $ 1 I → P h % ↗ l ] R T Y N + 3 b P n h ⇔ v K b X v ^ O / * C w ) 4 z n q @ ↗ y @ y 1 n Y q Y J 3 f k A 4"
+									"text" : "Z L $ M [ # ↔ M E 0 } M r K ↔ I T E ↑ R d ↗ & r * l [ F 9 ⇕ Z Y y K;\r\nX O q : P f;\r\n↔ ] : & A C ? 6 G [ V < 6 0 6 ) ↔ b ⇓ ⇕ m 9 ⇔ 0 s ← D U ( G I = u 4 X & o &"
 								}
 
 							}
@@ -2121,7 +2121,7 @@
 
 							}
  ],
-						"originid" : "pat-67"
+						"originid" : "pat-26"
 					}
 ,
 					"patching_rect" : [ 204.0, 636.5, 154.0, 22.0 ],
@@ -2772,7 +2772,7 @@
 
 			}
  ],
-		"originid" : "pat-51",
+		"originid" : "pat-6",
 		"dependency_cache" : [ 			{
 				"name" : "jit.gl.textmult.maxpat",
 				"bootpath" : "C74:/packages/Jitter Tools/patchers/abstractions",
