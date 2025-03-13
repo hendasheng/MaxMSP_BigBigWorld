@@ -14,6 +14,19 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontsize" : 18.0,
+					"id" : "obj-2",
+					"linecount" : 7,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 514.0, 85.0, 204.0, 151.0 ],
+					"text" : "Filter font-family from fontlist\n\nhttps://cycling74.com/forums/filter-font-family-from-fontlist#reply-67cc5570fb15a30013a3c502"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"color" : [ 0.945098039215686, 0.623529411764706, 0.266666666666667, 1.0 ],
 					"id" : "obj-253",
 					"maxclass" : "newobj",
@@ -1554,7 +1567,7 @@
 
 			}
  ],
-		"originid" : "pat-194",
+		"originid" : "pat-1556",
 		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
