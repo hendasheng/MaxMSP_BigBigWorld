@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 637.0, 303.0, 1244.0, 904.0 ],
+		"rect" : [ 637.0, 153.0, 1244.0, 1054.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -20,7 +20,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 733.0, 523.0, 79.0, 22.0 ],
+					"patching_rect" : [ 717.0, 544.0, 79.0, 22.0 ],
 					"text" : "r renderBang"
 				}
 
@@ -44,7 +44,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 978.0, 540.0, 108.0, 22.0 ],
+					"patching_rect" : [ 1124.0, 582.0, 108.0, 22.0 ],
 					"text" : "106.349006"
 				}
 
@@ -56,7 +56,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 895.0, 506.0, 43.0, 22.0 ],
+					"patching_rect" : [ 895.0, 544.0, 43.0, 22.0 ],
 					"text" : "jit.time"
 				}
 
@@ -70,7 +70,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 895.0, 630.0, 150.0, 22.0 ]
+					"patching_rect" : [ 895.0, 630.0, 200.0, 22.0 ]
 				}
 
 			}
@@ -83,7 +83,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 895.0, 606.0, 150.0, 22.0 ]
+					"patching_rect" : [ 895.0, 606.0, 200.0, 22.0 ]
 				}
 
 			}
@@ -96,7 +96,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 895.0, 582.0, 150.0, 22.0 ]
+					"patching_rect" : [ 895.0, 582.0, 200.0, 22.0 ]
 				}
 
 			}
@@ -120,7 +120,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 717.0, 608.0, 24.0, 24.0 ]
+					"patching_rect" : [ 717.0, 587.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -143,7 +143,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 316.0, 616.0, 136.0, 22.0 ],
+					"patching_rect" : [ 310.0, 616.0, 136.0, 22.0 ],
 					"text" : "jit.matrix 3 float32 10 10"
 				}
 
