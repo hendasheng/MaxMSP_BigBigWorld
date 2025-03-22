@@ -10,9 +10,33 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 158.0, 84.0, 2095.0, 1273.0 ],
+		"rect" : [ 439.0, 84.0, 2095.0, 1273.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-94",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1638.5, 970.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-192",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_matrix", "" ],
+					"patching_rect" : [ 526.0, 1052.0, 173.0, 22.0 ],
+					"text" : "jit.gl.layer @preserve_aspect 1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"color" : [ 0.23921568627451, 0.847058823529412, 0.545098039215686, 1.0 ],
 					"id" : "obj-187",
@@ -551,7 +575,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1773.0, 752.0, 136.0, 22.0 ],
-					"text" : "clips[0]::filename"
+					"text" : "clips[5]::filename"
 				}
 
 			}
@@ -681,18 +705,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1649.0, 408.0, 41.0, 22.0 ],
 					"text" : "loop 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-104",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 526.0, 1031.0, 280.0, 22.0 ],
-					"text" : "jit.gl.videoplane geo @preserve_aspect 1 @layer 0"
 				}
 
 			}
@@ -3449,7 +3461,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-104", 0 ],
+					"destination" : [ "obj-192", 0 ],
 					"order" : 1,
 					"source" : [ "obj-15", 0 ]
 				}
@@ -4389,6 +4401,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-91", 0 ],
 					"source" : [ "obj-93", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-148", 0 ],
+					"source" : [ "obj-94", 0 ]
 				}
 
 			}
