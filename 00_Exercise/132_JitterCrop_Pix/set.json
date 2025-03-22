@@ -1,0 +1,19 @@
+{
+	"pattrstorage" : 	{
+		"name" : "set",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"font_linlength" : [ "line_length", 1500.0 ],
+					"fontsze" : [ "fontsize", 120 ],
+					"v8_AA" : [  ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
