@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 298.0, 84.0, 2095.0, 1273.0 ],
+		"rect" : [ 226.0, 90.0, 1735.0, 1273.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -24,7 +24,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 187.480314960629926, 612.598425196850371, 745.0, 280.0 ],
+					"patching_rect" : [ 31.0, 926.0, 745.0, 280.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : "themecolor.theme_syntax_attrargcolor"
@@ -868,7 +868,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1772.0, 782.0, 136.0, 22.0 ],
-					"text" : "clips[2]::filename"
+					"text" : "clips[7]::filename"
 				}
 
 			}
@@ -2013,7 +2013,7 @@
 
 							}
  ],
-						"originid" : "pat-138"
+						"originid" : "pat-149"
 					}
 ,
 					"patching_rect" : [ 1165.0, 812.0, 60.0, 22.0 ],
@@ -2229,7 +2229,7 @@
 
 							}
  ],
-						"originid" : "pat-140"
+						"originid" : "pat-151"
 					}
 ,
 					"patching_rect" : [ 990.0, 812.0, 60.0, 22.0 ],
@@ -2430,7 +2430,7 @@
 
 							}
  ],
-						"originid" : "pat-142"
+						"originid" : "pat-153"
 					}
 ,
 					"patching_rect" : [ 615.0, 812.0, 60.0, 22.0 ],
@@ -2670,7 +2670,7 @@
 
 							}
  ],
-						"originid" : "pat-144"
+						"originid" : "pat-155"
 					}
 ,
 					"patching_rect" : [ 780.0, 812.0, 60.0, 22.0 ],
@@ -3369,7 +3369,7 @@
 
 							}
  ],
-						"originid" : "pat-146"
+						"originid" : "pat-157"
 					}
 ,
 					"patching_rect" : [ 525.0, 972.0, 49.0, 22.0 ],
@@ -4897,7 +4897,7 @@
 
 			}
  ],
-		"originid" : "pat-136",
+		"originid" : "pat-147",
 		"dependency_cache" : [ 			{
 				"name" : "10001438-hd_1920_1080_30fps_hap.mov",
 				"bootpath" : "~/Downloads/videos/Hap_Codecs",
