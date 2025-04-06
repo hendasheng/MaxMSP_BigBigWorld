@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 753.0, 148.0, 1625.0, 1150.0 ],
+		"rect" : [ 900.0, 207.0, 1625.0, 1150.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -160,7 +160,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1363.0, 1015.0, 50.0, 22.0 ],
-					"text" : "11"
+					"text" : "8"
 				}
 
 			}
@@ -172,7 +172,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1143.0, 1015.0, 153.0, 22.0 ],
-					"text" : "\"0.477881905\""
+					"text" : "\"0.698712\""
 				}
 
 			}
@@ -338,7 +338,7 @@
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1005.0, 460.0, 455.0, 43.0 ],
-					"text" : "01:09:28.427"
+					"text" : "01:44:01.168"
 				}
 
 			}
@@ -1114,7 +1114,7 @@
 
 			}
  ],
-		"originid" : "pat-626",
+		"originid" : "pat-14",
 		"dependency_cache" : [ 			{
 				"name" : "jit.ndi.send~.mxe64",
 				"type" : "mx64"
