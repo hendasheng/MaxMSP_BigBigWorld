@@ -519,7 +519,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 675.0, 539.0, 157.0, 64.0 ],
-					"text" : "E:/niu_work/3d/313_XinLiYouJia/output/02_01/06_一次性用品/main/img_0001.png"
+					"text" : "E:/niu_work/3d/313_XinLiYouJia/output/02_01/06_一次性用品/main/img_0010.png"
 				}
 
 			}
@@ -1022,7 +1022,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 378.0, 539.0, 157.0, 64.0 ],
-					"text" : "E:/niu_work/3d/313_XinLiYouJia/output/02_01/06_一次性用品/shadow/img_s_0001.png"
+					"text" : "E:/niu_work/3d/313_XinLiYouJia/output/02_01/06_一次性用品/shadow/img_s_0010.png"
 				}
 
 			}
